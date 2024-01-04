@@ -12,7 +12,7 @@ function raf(time) {
 requestAnimationFrame(raf)
 
 
-gsap.to(".textll",{
+gsap.to(".textlm",{
     width: "100%",
     scrollTrigger:{
         trigger:".two",
