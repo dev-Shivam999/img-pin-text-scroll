@@ -20,7 +20,22 @@ gsap.to(".textlm",{
         scroller: 'body',
         start:"top top",
         end:"bottom -100%",
-        markers: true,
+      
+        scrub:1,
+        pin:true
+
+    }
+})
+gsap.to("body",{
+    backgroundColor:"black",
+   color:"white",
+    scrollTrigger:{
+        trigger:".two",
+
+        scroller: 'body',
+        start:"top top",
+        end:" top 100%",
+      
         scrub:1,
         pin:true
 
