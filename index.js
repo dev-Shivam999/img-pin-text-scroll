@@ -26,18 +26,4 @@ gsap.to(".textlm",{
 
     }
 })
-gsap.to("body",{
-    backgroundColor:"black",
-   color:"white",
-    scrollTrigger:{
-        trigger:".two",
 
-        scroller: 'body',
-        start:"top top",
-        end:" top 100%",
-      
-        scrub:1,
-        pin:true
-
-    }
-})
